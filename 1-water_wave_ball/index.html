@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Water wave ball</title>
   <style type="text/css">
-    canvas { 
-      border: 1px solid black;
-      /* width: 200px;
-      height: 200px; */
+    canvas {
+      /* border: 1px solid black; */
+      /* width: 10em;
+      height: 10em; */
+    }
+
+    body {
+      /* background-color: bisque; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+
+    button {
+      height: 3em;
+      border-radius: 0.3em;
+      background-color: #fff;
+      border: 0.05em solid #888;
+    }
+    button:hover{
+      background-color: #eee;
+    }
+    button:active{
+      background-color: #ddd;
     }
   </style>
 </head>
+
 <body>
-  <!-- <canvas width="300" height="300" id="demo"></canvas> -->
+  <button onclick="addPercent(0.26)"> +26% </button>
+  <!-- <button></button> -->
 
   <script src="app.js"></script>
 </body>
+
 </html>
